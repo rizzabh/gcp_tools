@@ -37,7 +37,7 @@ app.get('*', (req, res) => {
 });
 
 // Start the server
-const PORT = config.server.port;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   console.log(`Visit http://localhost:${PORT} to access the application`);

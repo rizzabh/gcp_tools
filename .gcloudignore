@@ -1,0 +1,24 @@
+# Node.js dependencies:
+node_modules/
+npm-debug.log
+
+# Git files
+.git/
+.gitignore
+
+# Development files
+deploy.js
+Dockerfile
+DEPLOYMENT.md
+.qodo/
+.vscode/
+.idea/
+
+# Temporary files
+uploads/
+downloads/
+tmp/
+temp/
+
+# Don't upload your actual service account key
+service-account-key.json 
